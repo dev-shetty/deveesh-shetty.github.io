@@ -1,2 +1,3 @@
-# Portfolio
-Deveesh Shetty Portfolio Website
+# Deveesh Shetty
+
+Portfolio Website for me :)
