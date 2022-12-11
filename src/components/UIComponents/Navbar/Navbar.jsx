@@ -14,7 +14,7 @@ function Navbar() {
           <a href="#skills">Skills</a>
         </li>
         <li className="py-4 md:px-4">
-          <Link path="/projects">Projects</Link>
+          <a href="#projects">Projects</a>
         </li>
         <li className="py-4 md:px-4">
           <Link path="/contact">Contact</Link>

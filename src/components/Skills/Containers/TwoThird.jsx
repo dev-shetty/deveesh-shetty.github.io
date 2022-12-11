@@ -3,10 +3,10 @@ function TwoThird({ skill, children, reverse }) {
     <div
       className={`border-2 flex ${
         reverse ? "flex-row-reverse" : ""
-      } h-[12rem] col-span-2 items-center`}
+      } h-[12rem] col-span-2 items-center -sm:h-[6rem]`}
     >
       <div className="w-2/4">{children}</div>
-      <div className="text-center w-2/4 text-3xl">
+      <div className="text-center w-2/4 text-3xl -md:text-xl">
         <p>{skill}</p>
       </div>
     </div>
