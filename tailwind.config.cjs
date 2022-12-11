@@ -17,6 +17,15 @@ module.exports = {
         primary: ["Titillium Web", "sans-serif"],
         heading: ["Space Mono", "monospace"],
       },
+      animation: {
+        "spin-slow": "spin 12s linear infinite",
+        contrast: "change-color 1s linear infinite",
+      },
+      keyframes: {
+        "change-color": {
+          "50%": { mixBlendMode: "hard-light" },
+        },
+      },
     },
   },
   plugins: [],

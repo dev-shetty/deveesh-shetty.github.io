@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @tailwind base;
@@ -12,4 +13,5 @@
 
 body {
   overflow-x: hidden;
+  @apply bg-primary-800;
 }

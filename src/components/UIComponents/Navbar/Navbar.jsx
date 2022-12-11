@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa"
 
 function Navbar() {
   return (
-    <nav className="md:absolute w-full flex items-center -sm:justify-between">
+    <nav className="md:absolute w-full flex items-center -sm:justify-between bg-primary-800">
       <ul className="w-[5rem] md:w-[6rem] -sm:hidden">
         <li className="py-4 pl-2 font-heading font-extrabold text-xl tracking-wider">
           <Link path="/">DEV</Link>
@@ -11,7 +11,7 @@ function Navbar() {
       </ul>
       <ul className="flex gap-3 md:gap-12 mx-auto -sm:mx-0 -sm:gap-6">
         <li className="py-4 md:px-4">
-          <Link path="/skills">Skills</Link>
+          <a href="#skills">Skills</a>
         </li>
         <li className="py-4 md:px-4">
           <Link path="/projects">Projects</Link>
