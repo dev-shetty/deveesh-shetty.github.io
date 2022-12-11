@@ -1,6 +1,6 @@
 function Header({ heading, subHeading }) {
   return (
-    <header className="font-playfair text-center">
+    <header className="font-playfair text-center mb-4">
       <p className="text-3xl mb-2 font-bold text-accent pt-4">{heading}</p>
       <p className="text-md md:text-xl">{subHeading}</p>
     </header>

@@ -15,7 +15,7 @@ module.exports = {
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
         primary: ["Titillium Web", "sans-serif"],
-        heading: ["Space Mono", "monospace"],
+        monospace: ["Space Mono", "monospace"],
       },
       animation: {
         "spin-slow": "spin 12s linear infinite",

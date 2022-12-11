@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="md:absolute w-full flex items-center -sm:justify-between bg-primary-800">
       <ul className="w-[5rem] md:w-[6rem] -sm:hidden">
-        <li className="py-4 pl-2 font-heading font-extrabold text-xl tracking-wider">
+        <li className="py-4 pl-2 font-monospace font-extrabold text-xl tracking-wider">
           <Link path="/">DEV</Link>
         </li>
       </ul>
