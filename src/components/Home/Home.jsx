@@ -1,3 +1,5 @@
+import TypeWriter from "typewriter-effect"
+
 function Home() {
   return (
     <div className="flex flex-col-reverse md:flex-row -md:mx-4 md:justify-between h-screen min-h-max -md:mb-6 items-center">
@@ -9,7 +11,19 @@ function Home() {
           <h1 className="text-2xl md:text-5xl  text-accent font-playfair font-bold mb-2">
             Deveesh Shetty
           </h1>
-          <p className=" mb-2 md:mb-4 text-xl">Frontend Developer and Artist</p>
+          <div className=" mb-2 md:mb-4 text-xl md:text-2xl">
+            <TypeWriter
+              options={{
+                strings: [
+                  "Frontend Developer",
+                  "Full Stack Developer Soon...",
+                  "Artist",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
           <p className="md:w-3/4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illum
             quos animi omnis, veritatis aut ducimus veniam eveniet vel illo
