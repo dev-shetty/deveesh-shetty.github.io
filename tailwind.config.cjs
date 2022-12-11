@@ -10,6 +10,12 @@ module.exports = {
       },
       screens: {
         "-md": { max: "768px" },
+        "-sm": { max: "640px" },
+      },
+      fontFamily: {
+        playfair: ["Playfair Display", "serif"],
+        primary: ["Titillium Web", "sans-serif"],
+        heading: ["Space Mono", "monospace"],
       },
     },
   },
