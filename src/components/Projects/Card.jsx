@@ -8,7 +8,7 @@ function Card({ title, img, tech, description }) {
           <img
             src={img}
             alt={title}
-            className="aspect-video p-4 min-w-[24rem]"
+            className="aspect-video p-4 min-w-[24rem] -sm:min-w-[16rem]"
           />
         </div>
         <p className="text-center text-2xl font-semibold font-playfair">
