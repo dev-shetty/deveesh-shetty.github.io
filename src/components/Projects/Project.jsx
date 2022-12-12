@@ -14,7 +14,7 @@ function Project() {
         heading="Projects"
         subHeading="From concept to completion, every project tells a story of dedication and skill."
       />
-      <div className="relative">
+      <div className="relative select-none">
         <div
           className="absolute top-1/2 -translate-y-1/2 z-10 right-2 rounded-full p-1 bg-accent opacity-80 animate-bounce-horizontal md:p-2 cursor-pointer scroll-smooth"
           onClick={() => {
