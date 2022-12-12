@@ -2,7 +2,7 @@ import React from "react"
 
 function Card({ title, img, tech, description }) {
   return (
-    <div className="flex flex-col gap-2 border-2 mx-6 lg:px-2 md:items-center py-2 my-4 -sm:min-w-[75%]">
+    <div className="flex flex-col gap-2 border-2 mx-6 lg:px-2 md:items-center py-2 my-4 -sm:min-w-[75%] cursor-pointer">
       <div className="mb-4">
         <div>
           <img

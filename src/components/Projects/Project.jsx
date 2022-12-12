@@ -1,5 +1,6 @@
 import { useRef } from "react"
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa"
+import ScrollContainer from "react-indiana-drag-scroll"
 import Header from "../UIComponents/Header/Header"
 import Card from "./Card"
 
@@ -24,7 +25,7 @@ function Project() {
         >
           <FaAngleRight />
         </div>
-        <div
+        {/* <div
           className="absolute top-1/2 -translate-y-1/2 z-10 left-2 rounded-full p-1 bg-accent opacity-80 animate-bounce-horizontal md:p-2 cursor-pointer scroll-smooth"
           onClick={() => {
             if (window.innerWidth <= 768) scroll(-window.innerWidth + 100)
@@ -32,9 +33,9 @@ function Project() {
           }}
         >
           <FaAngleLeft />
-        </div>
-        <div
-          className="grid grid-cols-2 lg:grid-cols-3 lg:flex lg:overflow-x-scroll no-scroll -sm:flex -sm:overflow-x-scroll mb-6"
+        </div> */}
+        <ScrollContainer
+          className="grid grid-cols-2 lg:grid-cols-3 cursor-grab lg:flex lg:overflow-x-scroll no-scroll -sm:flex -sm:overflow-x-scroll mb-6"
           ref={project}
         >
           <Card
@@ -91,7 +92,7 @@ function Project() {
           expedita corrupti quod odit distinctio neque pariatur
           voluptas."
           />
-        </div>
+        </ScrollContainer>
       </div>
     </div>
   )
