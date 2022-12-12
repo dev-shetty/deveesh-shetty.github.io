@@ -1,10 +1,4 @@
-import {
-  FaCopyright,
-  FaDev,
-  FaGithub,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa"
+import { FaDev, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 import { SiTailwindcss, SiReact, SiVite, SiGithub } from "react-icons/si"
 import { AiOutlineCopyrightCircle } from "react-icons/ai"
 import { Link } from "react-router-dom"

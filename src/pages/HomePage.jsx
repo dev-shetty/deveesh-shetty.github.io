@@ -1,3 +1,4 @@
+import Gallery from "../components/Art/Gallery"
 import Home from "../components/Home/Home"
 import Project from "../components/Projects/Project"
 import Skill from "../components/Skills/Skill"
@@ -9,6 +10,7 @@ function HomePage() {
       <Home />
       <Skill />
       <Project />
+      <Gallery />
       <Footer />
     </div>
   )

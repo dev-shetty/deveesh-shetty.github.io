@@ -3,12 +3,12 @@ import Card from "./Card"
 
 function Project() {
   return (
-    <div id="projects" className="">
+    <div id="projects">
       <Header
         heading="Projects"
         subHeading="From concept to completion, every project tells a story of dedication and skill."
       />
-      <div className="grid grid-cols-2 lg:grid-cols-3 lg:flex lg:overflow-scroll no-scroll -sm:flex -sm:overflow-scroll">
+      <div className="grid grid-cols-2 lg:grid-cols-3 lg:flex lg:overflow-scroll no-scroll -sm:flex -sm:overflow-scroll mb-6">
         <Card
           title="Expense Tracker"
           img="React.svg"

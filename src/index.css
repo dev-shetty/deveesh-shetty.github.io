@@ -65,3 +65,21 @@ body {
 .no-scroll::-webkit-scrollbar {
   display: none;
 }
+
+.polaroid {
+  position: relative;
+}
+.polaroid::before {
+  content: "";
+  position: absolute;
+  background-image: url("WoodTexture.svg");
+  top: -2rem;
+  width: 2rem;
+  bottom: 90%;
+}
+.polaroid:nth-child(even)::before {
+  right: 1rem;
+}
+.polaroid:nth-child(odd)::before {
+  left: 0.5rem;
+}

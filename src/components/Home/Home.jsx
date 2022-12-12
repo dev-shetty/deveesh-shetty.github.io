@@ -3,7 +3,7 @@ import TypeWriter from "typewriter-effect"
 function Home() {
   return (
     <div
-      className="flex flex-col-reverse md:flex-row -md:mx-4 md:justify-between h-screen min-h-max -md:mb-6 items-center"
+      className="flex flex-col-reverse md:flex-row -md:mx-4 md:justify-between h-screen min-h-max -md:mb-6 items-center -sm:mt-4"
       id="aboutMe"
     >
       <div className="basis-1/2">
