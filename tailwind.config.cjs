@@ -20,10 +20,19 @@ module.exports = {
       animation: {
         "spin-slow": "spin 12s linear infinite",
         contrast: "change-color 1s linear infinite",
+        "bounce-horizontal": "horizontal 2s infinite ease-in-out",
       },
       keyframes: {
         "change-color": {
           "50%": { mixBlendMode: "hard-light" },
+        },
+        horizontal: {
+          "0%, 100%": {
+            transform: "translateX(-25%)",
+          },
+          "50%": {
+            transform: "none",
+          },
         },
       },
     },
