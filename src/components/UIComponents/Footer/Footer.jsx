@@ -11,13 +11,13 @@ import { Link } from "react-router-dom"
 function Footer() {
   return (
     <footer className="flex flex-col border-t-2 my-8 px-8" id="contact">
-      <div className="flex justify-between my-8">
-        <ul>
-          <li className="py-4 pl-2 font-monospace font-extrabold text-xl tracking-wider">
+      <div className="flex justify-between my-8 -sm:grid -sm:grid-cols-2 -sm:place-items-center -sm:gap-2">
+        <ul className=" -sm:col-span-2">
+          <li className="py-4 -sm:py-2 pl-2 font-monospace font-extrabold text-xl tracking-wider">
             <Link path="/">DEV</Link>
           </li>
         </ul>
-        <ul>
+        <ul className="-sm:col-span-2 -sm:flex -sm:gap-8">
           <li>
             <a href="#aboutMe">About Me</a>
           </li>
@@ -59,8 +59,8 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex items-center justify-around border-t-2 mx-16">
-        <div className="flex items-center gap-2">
+      <div className="flex items-center justify-around border-t-2 mx-16 -sm:flex-col -sm:mx-8">
+        <div className="flex items-center gap-2 -sm:mt-4">
           <p>
             <AiOutlineCopyrightCircle />
           </p>
