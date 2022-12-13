@@ -1,11 +1,11 @@
-function Art() {
+function Art({ title, img }) {
   return (
-    <div className="polaroid flex flex-col min-w-[33.33%] md:min-w-[20%] -sm:min-w-[45%] bg-primary-100 odd:rotate-6 even:-rotate-12 shadow-[#DDDDDD] shadow-lg rounded-lg -md:shadow-md">
+    <div className="polaroid flex flex-col min-w-[33.33%] md:min-w-[20%] -sm:min-w-[45%] bg-primary-100 odd:rotate-6 even:-rotate-12 shadow-[#DDDDDD] shadow-lg rounded-lg -md:shadow-md border-2 border-gray-500">
       <div className="bg-primary-800 mx-2 mt-2 p-2 rounded-lg">
-        <img src="React.svg" alt="React" className="pointer-events-none" />
+        <img src={img} alt={title} className="pointer-events-none" />
       </div>
-      <div className="text-accent py-4 text-center px-2 -sm:px-0.5 -sm:text-sm">
-        <p>Lorem ipsum dolor sit.</p>
+      <div className="text-accent py-6 text-center px-2 text-2xl -sm:px-0.5 -sm:text-sm">
+        <p>{title}</p>
       </div>
     </div>
   )

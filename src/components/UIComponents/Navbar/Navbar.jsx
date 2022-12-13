@@ -17,7 +17,7 @@ function Navbar() {
           <a href="#projects">Projects</a>
         </li>
         <li className="nav-item py-4 md:px-4">
-          <a href="#contact">Contact</a>
+          <a href="#gallery">Art Gallery</a>
         </li>
       </ul>
       <ul className="w-[5rem] md:w-[6rem] text-right md:mx-4">

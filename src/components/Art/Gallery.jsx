@@ -10,7 +10,7 @@ function Gallery() {
     gallery.current.scrollLeft += scrollOffset
   }
   return (
-    <div className="mb-12">
+    <div className="mb-12" id="gallery">
       <div>
         <Header
           heading="Art Gallery"
@@ -40,13 +40,17 @@ function Gallery() {
           className="no-scroll flex gap-4 px-5 md:px-8 cursor-grab overflow-x-scroll py-8 overflow-y-hidden md:py-16"
           ref={gallery}
         >
-          <Art />
-          <Art />
-          <Art />
-          <Art />
-          <Art />
-          <Art />
-          <Art />
+          <Art title="Lal Baug Cha Raja" img="Arts/LalBaugChaRaja.jpg" />
+          <Art title="AdiYogi" img="Arts/AdiYogi.jpg" />
+          <Art title="Tiger Roar" img="Arts/TigerRoar.jpg" />
+          <Art title="Joker" img="Arts/Joker.jpg" />
+          <Art title="Yakshagana" img="Arts/Yakshagana.jpg" />
+          <Art title="Sai Baba" img="Arts/SaiBaba.jpg" />
+          <Art title="Infinity Guantlet" img="Arts/InfinityGuantlet.jpg" />
+          <Art title="Goku" img="Arts/Goku.jpg" />
+          <Art title="Spiderman" img="Arts/Spiderman.jpg" />
+          <Art title="Kapil Dev" img="Arts/KapilDev.jpg" />
+          <Art title="Thanos" img="Arts/Thanos.jpg" />
         </ScrollContainer>
       </div>
     </div>
