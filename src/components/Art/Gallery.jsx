@@ -12,7 +12,10 @@ function Gallery() {
   return (
     <div className="mb-12">
       <div>
-        <Header heading="Art Gallery" />
+        <Header
+          heading="Art Gallery"
+          subHeading="I may be a developer, but I also have a creative side as an artist."
+        />
       </div>
       <div className="relative select-none">
         <div

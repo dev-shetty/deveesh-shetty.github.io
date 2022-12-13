@@ -19,7 +19,7 @@ function Card({ title, img, tech, description }) {
         <div className="flex justify-center">
           <div className="flex flex-col gap-2 m-2 items-center">
             {/* <p className="text-xl font-semibold">Tech Stack</p> */}
-            <div className="flex gap-2 flex-wrap justify-center">
+            <div className="flex gap-2 flex-wrap justify-center -sm:text-xs">
               {tech &&
                 tech.map((item, index) => (
                   <p className="tags" key={index}>
@@ -32,7 +32,7 @@ function Card({ title, img, tech, description }) {
         <div className="flex m-2">
           <div className="flex flex-col items-center">
             {/* <p className="text-xl font-semibold">Description</p> */}
-            <div className="mx-4 text-justify">
+            <div className="mx-4 text-justify -sm:text-sm">
               <p>{description}</p>
             </div>
           </div>
