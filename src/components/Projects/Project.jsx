@@ -40,57 +40,39 @@ function Project() {
         >
           <Card
             title="Expense Tracker"
-            img="React.svg"
-            tech={["ReactJs", "ExpressJS", "MongoDB", "TailwindCSS", "NodeJS"]}
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquam alias rerum quibusdam, in unde nemo animi ipsa,
-          expedita corrupti quod odit distinctio neque pariatur
-          voluptas."
+            img="Projects/ExpenseTracker.png"
+            tech={["MongoDB", "ExpressJS", "ReactJs", "NodeJS", "TailwindCSS"]}
+            description="In this Expense tracker user can add his expenses and view all the expenses till date. Also on top of that there is a stocks section where user can keep track of how much they are holding in stocks."
           />
           <Card
             title="Clouds"
-            img="React.svg"
+            img="Projects/Clouds.png"
             tech={["ReactJs", "CSS3"]}
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquam alias rerum quibusdam, in unde nemo animi ipsa,
-          expedita corrupti quod odit distinctio neque pariatur
-          voluptas."
+            description="CLOUDS is an association of Computer Science Department in Sahyadri College of Engineering and Management. This website shows the details of office bearers representing clouds. The event tab it shows the upcoming events in our college"
           />
           <Card
             title="Project Phase"
-            img="React.svg"
+            img="Projects/ProjectPhase.png"
             tech={["ReactJs", "CSS3", "Laravel"]}
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquam alias rerum quibusdam, in unde nemo animi ipsa,
-          expedita corrupti quod odit distinctio neque pariatur
-          voluptas."
+            description="Project Phase is a portal which me and my friend Tejas made for college. It is to register the team of students for final year project and give marks to them. I did the frontend part and Tejas did the backend for it using PHP-Laravel"
           />
           <Card
             title="AYLN"
-            img="React.svg"
+            img="Projects/AYLN.png"
             tech={["ReactJs", "CSS3"]}
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquam alias rerum quibusdam, in unde nemo animi ipsa,
-          expedita corrupti quod odit distinctio neque pariatur
-          voluptas."
+            description="AYLN is an e-commerce for which I built the frontend using ReactJs. It was my first internship project at Startupreneur. It has Login, Homepage, Productpage and Orderpage."
           />
           <Card
             title="De Jeunesse"
-            img="React.svg"
+            img="Projects/DeJenuesse.png"
             tech={["ReactJs", "CSS3"]}
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquam alias rerum quibusdam, in unde nemo animi ipsa,
-          expedita corrupti quod odit distinctio neque pariatur
-          voluptas."
+            description="De Jeunesse is another e-commerce website which i built for Startupreneur as my internship project. I built the frontend for this and it has Homepage, Productpage and a Blog Page."
           />
           <Card
             title="API Forever"
-            img="React.svg"
+            img="Projects/ApiForever.png"
             tech={["ReactJs", "CSS3", "Bunch of APIs"]}
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquam alias rerum quibusdam, in unde nemo animi ipsa,
-          expedita corrupti quod odit distinctio neque pariatur
-          voluptas."
+            description="API Forever formerly known as API Fantasy was one of my first React Project. Here I used a bunch of public APIs as the name suggests. It uses Joke, Quotes, ISRO, Dictionary and Pincode API."
           />
         </ScrollContainer>
       </div>
