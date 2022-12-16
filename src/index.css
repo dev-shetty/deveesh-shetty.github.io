@@ -65,6 +65,10 @@ body {
 .no-scroll::-webkit-scrollbar {
   display: none;
 }
+.no-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 .polaroid {
   position: relative;
@@ -87,5 +91,22 @@ body {
 @media only screen and (max-width: 50em) {
   .polaroid::before {
     width: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .carousel-content > div:nth-child(2) {
+    @apply scale-[1.15] bg-accent shadow-lg shadow-primary-800;
+  }
+}
+/* 
+* {
+  outline: 1px solid red;
+} */
+
+/* To check if device is mobile using css */
+@media (hover: none) and (pointer: coarse) {
+  .left-arrow,
+  .right-arrow {
+    display: none;
   }
 }
