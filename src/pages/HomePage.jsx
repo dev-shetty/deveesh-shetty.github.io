@@ -2,6 +2,7 @@ import Gallery from "../components/Art/Gallery"
 import Home from "../components/Home/Home"
 import Project from "../components/Projects/Project"
 import Skill from "../components/Skills/Skill"
+import Testimonials from "../components/Testimonials/Testimonials"
 import Footer from "../components/UIComponents/Footer/Footer"
 
 function HomePage() {
@@ -11,6 +12,7 @@ function HomePage() {
       <Skill />
       <Project />
       <Gallery />
+      <Testimonials />
       <Footer />
     </div>
   )

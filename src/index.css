@@ -83,3 +83,9 @@ body {
 .polaroid:nth-child(odd)::before {
   left: 0.5rem;
 }
+
+@media only screen and (max-width: 50em) {
+  .polaroid::before {
+    width: 1.5rem;
+  }
+}
