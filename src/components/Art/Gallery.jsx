@@ -44,6 +44,7 @@ function Gallery() {
           <Art title="Yakshagana" img="Arts/Yakshagana.jpg" />
           <Art title="AdiYogi" img="Arts/AdiYogi.jpg" />
           <Art title="Tiger Roar" img="Arts/TigerRoar.jpg" />
+          <Art title="Rajkumar" img="Arts/Rajkumar.jpg" />
           <Art title="Joker" img="Arts/Joker.jpg" />
           <Art title="Sai Baba" img="Arts/SaiBaba.jpg" />
           <Art title="Infinity Guantlet" img="Arts/InfinityGuantlet.jpg" />

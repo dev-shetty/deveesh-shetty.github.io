@@ -104,9 +104,9 @@ body {
 } */
 
 /* To check if device is mobile using css */
-@media (hover: none) and (pointer: coarse) {
+/* @media (hover: none) and (pointer: coarse) {
   .left-arrow,
   .right-arrow {
     display: none;
   }
-}
+} */
