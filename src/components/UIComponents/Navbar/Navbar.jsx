@@ -21,13 +21,15 @@ function Navbar() {
         </li>
       </ul>
       <ul className="w-[5rem] md:w-[6rem] text-right md:mx-4">
-        <li
-          className="flex items-center justify-center gap-1
+        <a href="Resume/Deveesh's Resume.pdf" download="Deveesh's Resume.pdf">
+          <li
+            className="flex items-center justify-center gap-1
         px-1.5 md:px-1 rounded-full py-1 gradient"
-        >
-          <Link>Resume</Link>
-          <FaDownload />
-        </li>
+          >
+            <p>Resume</p>
+            <FaDownload />
+          </li>
+        </a>
       </ul>
     </nav>
   )
