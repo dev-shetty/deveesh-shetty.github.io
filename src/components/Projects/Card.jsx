@@ -1,15 +1,17 @@
 import React from "react"
 
-function Card({ title, img, tech, description }) {
+function Card({ title, img, tech, description, link }) {
   return (
-    <div className="flex flex-col gap-2 border-2 mx-6 lg:px-2 md:items-center py-2 my-4 -sm:min-w-[75%] cursor-pointer rounded-xl">
+    <div className="flex flex-col gap-2 border-2 mx-6 lg:px-2 md:items-center py-2 my-4 -sm:min-w-[75%] rounded-xl">
       <div className="mb-4 rounded-t-3xl">
-        <div className="rounded-t-3xl">
-          <img
-            src={img}
-            alt={title}
-            className="aspect-video p-4 min-w-[20rem] lg:min-w-[24rem] -md:min-w-[75%] rounded-3xl mx-auto pointer-events-none"
-          />
+        <div className="rounded-t-3xl cursor-pointer">
+          <a href={link} target="_blank">
+            <img
+              src={img}
+              alt={title}
+              className="aspect-video p-4 min-w-[20rem] lg:min-w-[24rem] -md:min-w-[75%] rounded-3xl mx-auto pointer-events-none"
+            />
+          </a>
         </div>
         <p className="text-center text-2xl font-semibold font-playfair">
           {title}
