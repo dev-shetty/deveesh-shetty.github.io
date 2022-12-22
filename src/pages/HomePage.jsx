@@ -12,7 +12,7 @@ function HomePage() {
       <Skill />
       <Project />
       <Gallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   )

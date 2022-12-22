@@ -28,17 +28,18 @@ function Home() {
             />
           </div>
           <p className="md:w-3/4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illum
-            quos animi omnis, veritatis aut ducimus veniam eveniet vel illo
-            recusandae officiis quo commodi neque.
+            Enthusiastic React Developer making my way to Full Stack
+            Development. Eager to learn new concepts and experiment with
+            existing ones. Working bit by bit daily to build my skills and
+            develop applications based on it.
           </p>
         </div>
       </div>
       <div className="flex justify-center basis-1/2 my-2">
         <img
-          src="https://source.unsplash.com/random?nature"
+          src="Misc/Deveesh.jpg"
           alt="Deveesh Shetty"
-          className="md:w-3/4 -md:h-72 aspect-square my-auto"
+          className="md:w-2/4 -md:h-64 aspect-square my-auto rounded-full"
         />
       </div>
     </div>
