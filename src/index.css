@@ -76,7 +76,7 @@ body {
 .polaroid::before {
   content: "";
   position: absolute;
-  background-image: url("WoodTexture.svg");
+  background-image: url("Misc/WoodTexture.svg");
   top: -2rem;
   width: 2rem;
   bottom: 90%;
