@@ -13,7 +13,7 @@ function Project() {
     console.log(scrollOffset)
   }
   return (
-    <div id="projects">
+    <div id="projects" className="md:mt-16">
       <Header
         heading="Projects"
         subHeading="From concept to completion, every project tells a story of dedication and skill."

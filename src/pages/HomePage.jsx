@@ -4,6 +4,7 @@ import Project from "../components/Projects/Project"
 import Skill from "../components/Skills/Skill"
 import Testimonials from "../components/Testimonials/Testimonials"
 import Footer from "../components/UIComponents/Footer/Footer"
+import Work from "../components/Work/Work"
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <Home />
       <Skill />
       <Project />
+      <Work />
       <Gallery />
       {/* <Testimonials /> */}
       <Footer />

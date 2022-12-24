@@ -80,6 +80,7 @@ body {
   top: -2rem;
   width: 2rem;
   bottom: 90%;
+  border-radius: 0 0 100vw 100vw;
 }
 .polaroid:nth-child(even)::before {
   right: 1rem;
