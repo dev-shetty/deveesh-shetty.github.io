@@ -39,7 +39,7 @@ function Home() {
         <img
           src="Misc/Deveesh.jpg"
           alt="Deveesh Shetty"
-          className="md:w-2/4 -md:h-64 aspect-square my-auto rounded-full"
+          className="md:w-5/12 -md:h-64 aspect-square my-auto rounded-full border-primary-000 border-8"
         />
       </div>
     </div>
