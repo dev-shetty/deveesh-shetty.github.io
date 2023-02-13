@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage"
 
 function App() {
   return (
-    <div className="bg-primary-800 text-primary-100 min-h-screen px-2 font-primary">
+    <div className="bg-gradient-to-bl from-primary-800 to-primary-400 text-primary-100 min-h-screen font-primary">
       <Router>
         <Navbar />
         <Routes>

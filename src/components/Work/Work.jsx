@@ -2,11 +2,11 @@ import Header from "../UIComponents/Header/Header"
 
 function Work() {
   return (
-    <div id="work" className="mb-16">
+    <div id="work" className="mb-16 mx-4">
       <Header heading="What am I Doing Now" />
       <div className="flex gap-2 -md:flex-col">
         <div className="border-2 flex flex-col justify-between p-4 basis-1/3 gap-2">
-          <p className="text-2xl -md:text-xl text-accent text-center">
+          <p className="text-2xl -md:text-xl text-primary-000 text-center">
             Student
           </p>
           <p className="my-auto">
@@ -15,7 +15,7 @@ function Work() {
           </p>
         </div>
         <div className="border-2 flex flex-col justify-between p-4 basis-1/3 gap-2">
-          <p className="text-2xl -md:text-xl text-accent text-center">
+          <p className="text-2xl -md:text-xl text-primary-000 text-center">
             Developer Intern
           </p>
           <p className="my-auto">
@@ -25,7 +25,7 @@ function Work() {
           </p>
         </div>
         <div className="border-2 flex flex-col justify-between p-4 basis-1/3 gap-2">
-          <p className="text-2xl -md:text-xl text-accent text-center">
+          <p className="text-2xl -md:text-xl text-primary-000 text-center">
             Learning Full Stack Development
           </p>
           <p className="my-auto">

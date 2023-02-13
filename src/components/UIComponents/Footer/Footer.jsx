@@ -4,7 +4,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai"
 import { Link } from "react-router-dom"
 function Footer() {
   return (
-    <footer className="flex flex-col border-t-2 my-8 px-8" id="contact">
+    <footer className="flex flex-col border-t-2 mt-8 pb-8 px-8" id="contact">
       <div className="flex justify-between my-8 -sm:grid -sm:grid-cols-2 -sm:place-items-center -sm:gap-2">
         <ul className=" -sm:col-span-2">
           <li className="py-4 -sm:py-2 pl-2 font-monospace font-extrabold text-xl tracking-wider">

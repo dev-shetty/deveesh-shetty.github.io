@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa"
 
 function Navbar() {
   return (
-    <nav className="md:absolute w-full flex items-center -sm:justify-between bg-primary-800">
+    <nav className="md:absolute w-full flex items-center -sm:justify-between bg-transparent">
       <ul className="w-[5rem] md:w-[6rem] -sm:hidden">
         <li className="py-4 pl-2 font-monospace font-extrabold text-xl tracking-wider">
           <Link path="/">DEV</Link>

@@ -17,17 +17,18 @@ body {
 }
 
 .tags {
-  @apply text-primary-100 px-4 rounded-lg font-monospace bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 cursor-pointer;
+  @apply text-primary-100 px-4 rounded-lg font-monospace bg-gradient-to-r from-primary-400 via-primary-800 to-primary-300 cursor-pointer;
 }
 .tags:hover {
   animation: wave 750ms ease-in-out infinite;
 }
 
 .text-gradient {
-  @apply text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 bg-clip-text;
+  @apply text-transparent bg-primary-000 bg-clip-text;
+  /* @apply text-transparent bg-gradient-to-r from-primary-900 to-primary-800 bg-clip-text; */
 }
 .gradient {
-  @apply bg-gradient-to-r from-pink-500 via-red-500 to-orange-500;
+  @apply bg-gradient-to-r from-primary-400 via-primary-800 to-primary-300;
 }
 .gradient:hover {
   animation: wave 750ms ease-in-out infinite;
@@ -35,13 +36,13 @@ body {
 
 @keyframes wave {
   0% {
-    @apply from-orange-400 via-pink-500 to-red-500;
+    @apply from-primary-400 via-primary-800 to-primary-300;
   }
   50% {
-    @apply from-red-500 via-orange-400 to-pink-500;
+    @apply from-primary-300 via-primary-400 to-primary-800;
   }
   100% {
-    @apply from-pink-500 via-red-500 to-orange-500;
+    @apply from-primary-800 via-primary-300 to-primary-400;
   }
 }
 
@@ -55,8 +56,8 @@ body {
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 300ms ease-in-out;
-  @apply bg-gradient-to-r from-pink-500 via-red-500
-    to-orange-500;
+  @apply bg-gradient-to-r from-primary-400
+    to-primary-300;
 }
 .nav-item:hover::after {
   transform: scaleX(1);

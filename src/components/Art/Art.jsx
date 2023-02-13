@@ -4,7 +4,7 @@ function Art({ title, img }) {
       <div className="bg-primary-800 mx-2 mt-2 p-2 rounded-lg">
         <img src={img} alt={title} className="pointer-events-none" />
       </div>
-      <div className="text-accent py-6 text-center px-2 text-xl lg:text-2xl -sm:px-0.5 -sm:text-sm">
+      <div className="text-primary-000 py-6 text-center px-2 text-xl lg:text-2xl -sm:px-0.5 -sm:text-sm">
         <p>{title}</p>
       </div>
     </div>
