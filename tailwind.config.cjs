@@ -25,8 +25,12 @@ module.exports = {
         "spin-slow": "spin 12s linear infinite",
         contrast: "change-color 1s linear infinite",
         "bounce-horizontal": "horizontal 2s infinite ease-in-out",
+        "bounce-slow": "bounce-slow 3s infinite ease-in-out",
       },
       keyframes: {
+        "bounce-slow": {
+          "50%": { transform: "translateY(-7%)" },
+        },
         "change-color": {
           "50%": { mixBlendMode: "hard-light" },
         },
